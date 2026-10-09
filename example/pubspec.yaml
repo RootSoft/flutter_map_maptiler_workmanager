@@ -1,0 +1,26 @@
+name: flutter_map_maptiler_workmanager_example
+description: Example of flutter_map_maptiler_workmanager
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map_maptiler_offline_pack:
+    path: ../../flutter_map_maptiler_offline_pack
+  flutter_map_maptiler_workmanager:
+    path: ../
+  latlong2: any
+  workmanager: any
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,26 @@
+name: flutter_map_maptiler_workmanager
+description: >-
+  A flutter_map plugin for downloading MapTiler offline packs in the
+  background, using workmanager.
+version: 0.1.0-dev.1
+publish_to: none # Until flutter_map_maptiler_offline_pack is published
+platforms:
+  android:
+  ios:
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map_maptiler_offline_pack:
+    path: ../flutter_map_maptiler_offline_pack
+  http: ^1.5.0
+  workmanager: ^0.10.10
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
